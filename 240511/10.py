@@ -16,7 +16,7 @@ def solution(cards):
             return ((int(cards[0][1]) + int(cards[1][1]) + int(cards[2][1])) * 3)
         else :
             print("case_4")
-            return ((int(cards[0][1]) + int(cards[1][1]) + int(cards[2][1])) * 2)
+            return ((int(cards[0][1]) + int(cards[1][3]) + int(cards[2][1])) * 2)
     
     elif cards[2][0] == cards[0][0] :
         if cards[2][0] == cards[1][0]:
